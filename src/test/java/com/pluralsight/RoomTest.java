@@ -9,12 +9,12 @@ class RoomTest {
     @Test
     void isAvailable() {
         // arrange
-        Room myRoom = new Room(1, 50, false, false);
+        Room myRoom new Room(1, 50, Tr, false);
 
         // act
         boolean result = myRoom.isAvailable();
 
         // assert
-        assertEquals(true, result);
+        assert
     }
 }
